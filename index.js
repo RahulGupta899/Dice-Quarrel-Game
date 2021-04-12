@@ -1,3 +1,7 @@
+setTimeout(function(){
+  document.querySelector("body");
+},5000);
+
 var randomNumber1 = Math.random();
 randomNumber1 = randomNumber1 * 6;
 randomNumber1 = Math.floor(randomNumber1) + 1; // range : 1 -6
